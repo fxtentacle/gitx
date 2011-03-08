@@ -21,6 +21,11 @@ hopefully more features will be added. Currently GitX supports the following:
     * Preview any file in the tree in a text view or with QuickLook
     * Drag and drop files out of the tree view to copy them to your system
    * Support for all parameters git rev-list has
+
+To see more items in the recent file menu, use:
+  defaults write nl.frim.GitX NSRecentDocumentsLimit 50
+from a terminal.
+
 # License
 
 GitX is licensed under the GPL version 2. For more information, see the attached COPYING file.
